@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&family=Montserrat:wght@300;400&family=Mulish:wght@300;400;700&family=Nunito+Sans:opsz@6..12&family=Nunito:wght@300&family=Pacifico&family=Poppins:wght@300;400;700;900&family=Roboto:wght@300;400;700&family=Satisfy&family=Young+Serif&display=swap');
+
+*{
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0,0,0,.75);
+    background: url('../images/netflix-bg.jpg') no-repeat; 
+    background-size: cover;
+    position: relative;
+}
+
+.shadow-box{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .60);
+}
+
+header > span{
+    font-size: 2.5rem;
+    color: #e50914;
+    position: fixed;
+    top: 3%;
+    left: 5%;
+    z-index: 10;
+    user-select: none;
+    padding-left: 20px;
+}
+
+.form-container{
+    height: 50vh;
+    width: 50vh;
+}
+
+.wrapper{
+    position: relative;
+    min-width: 318px;
+    min-height: 660px;
+    background-color: rgba(0,0,0,.75);
+    height: 40vh;
+    /* opacity: 0.5; */
+    /* border: 2px solid rgb(255, 255, 255, .5); */
+    border-radius: 4px;
+    /* backdrop-filter: blur(5px); */
+    /* box-shadow: 0 0 30px rgba(0, 0, 0, .5); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.wrapper .form-box{
+    width: 100%;
+    padding:40px ;
+}
+
+.form-box h2{
+    font-weight: 500;
+    font-size: 2em;
+    color: #fff;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    margin: 20px 0;
+}
+
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 0.8em;
+    color: #8c8c8c;
+    font-weight: 400;
+    pointer-events: none;
+    transition: 0.5s;
+    padding: 0 20px 0;
+}
+
+.input-box input{
+    width: 100%;
+    height: 100%;
+    background: #333;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 400;
+    padding: 0 20px 0;
+    border-radius: 6px;
+}
+
+.forget-password{
+    font-size: 0.7em;
+    color: #8c8c8c;
+    font-weight: 500;
+    margin: 15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.forget-password a{
+    text-decoration: none;
+    color: #8c8c8c;
+}
+
+.forget-password a:hover{
+    text-decoration: underline;
+}
+
+
+.btn{
+    width: 100%;
+    height: 40px;
+    background-color: #e50914;
+    color: white;
+    font-size: 0.9rem ;
+    font-weight: 500;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+.new-user{
+    color: #8c8c8c;
+    font-size: 0.8rem;
+}
+.sign-up{
+    display: flex;
+    justify-content: left;
+}
+
+.sign-up a{
+    margin-top: 12px;
+    margin-left: 5px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.sign-up a:hover{
+    text-decoration: underline;
+    font-size: 0.8rem;
+}
+
+.other-text{
+    color: #8c8c8c;
+    font-size: 0.7rem;
+}

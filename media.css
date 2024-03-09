@@ -1,0 +1,113 @@
+@media (max-width: 1280px) {
+  .main nav {
+    max-width: 90vw;
+  }
+}
+
+@media (max-width: 960px) {
+  .mid-container {
+    padding: 100px 20px 0 20px;
+  }
+
+  .mid-container > :first-child {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .mid-container > :nth-child(2) {
+    font-size: 1.12rem;
+  }
+
+  .mid-container > :nth-child(3) {
+    font-size: 1.025rem;
+  }
+}
+
+@media (max-width: 960px) {
+  .heading {
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .text {
+    font-size: 1.025rem;
+    text-align: center;
+  }
+
+  .hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .input-box {
+    flex: 2;
+    width: 70%;
+  }
+
+  .submit {
+    padding-top: 20px;
+    flex: 1;
+    width: 170px;
+  }
+
+  .submit .btn-sign-in {
+    font-size: 1.2rem;
+  }
+
+  .comm-spec {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fnq-container {
+    max-width: 92vw;
+  }
+  .faq-title {
+    font-size: 1.2rem;
+  }
+  .faq-text p {
+    font-size: 1.1rem;
+    line-height: 30px;
+  }
+  .faq-toggle {
+    top: 1.2rem;
+    right: 0.8rem;
+    font-size: 1rem;
+  }
+  footer{
+    margin: auto;
+    padding: 20px 0;
+  }
+  .footer-items a{
+    padding: 10px;
+}
+.first-sec{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.first-sec-img > img,
+.second-sec-img > img,
+.third-sec-img > img,
+.fourth-sec-img > img{
+  width: 450px;
+  margin: auto;
+}
+.first-sec-img video{
+  top: 70px;
+  width: 460px;
+}
+
+.third-sec-img video{
+  bottom: 35px;
+  left: 80px;
+  width: 290px;
+  height: 400px;
+}
+}
