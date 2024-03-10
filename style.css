@@ -15,12 +15,10 @@ body {
 .heading{
     font-size: 2.8rem;
     font-weight: 800;
-    /* text-align: center; */
 }
 
 .text{
     font-size: 1.5rem;
-    /* border-bottom: 2px solid black; */
 }
 
 .seperation{
@@ -31,13 +29,11 @@ body {
 
 .main {
     position: relative;
-    /* height: 77vh; */
     height: 90%;
     background: url('images/bg-1.jpg') no-repeat;
     background-position: center center;
     background-size: max(1200px, 100vw);
     border-bottom: 8px solid #808080b3;
-    padding-bottom: 8rem;
 }
 
 .center{
@@ -115,33 +111,32 @@ button i {
     z-index: 10;
     color: #fff;
     text-align: center;
-    padding: 170px 20px 0 20px;
-    /* top: 3.8rem; */
+    padding: 100px 20px 0 20px;
 }
-
-/* .mid-container> :first-child {
-    font-size: 2.8rem;
-    font-weight: 800;
-} */
-
-/* .mid-container> :nth-child(2) {
-    font-size: 1.5rem;
-} */
 
 .mid-container> :nth-child(3) {
     font-size: 1.2rem;
 }
 
+.container-text{
+    padding-bottom: 2rem;
+}
+
 .hero{
+    width: 40vw;
+    max-width: 40vw;
+    margin: auto;
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    gap: 0;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 5rem;
 }
 
 .input-box{
-    flex-basis: 20%;
+    width: 70%;
 }
 
 .input-box input {
@@ -165,7 +160,7 @@ button i {
 }
 
 .submit{
-    flex-basis: 10%;
+    width: 25%;
 }
 
 .submit .btn-sign-in {
