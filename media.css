@@ -24,6 +24,10 @@
 }
 
 @media (max-width: 960px) {
+  .main{
+    padding-bottom: 0;
+    height: 70vh;
+  }
   .heading {
     font-size: 2rem;
     font-weight: 700;
@@ -43,11 +47,6 @@
     flex-direction: column;
     width: 100%;
     max-width: 100%;
-  }
-
-  .input-box {
-    flex: 2;
-    width: 70%;
   }
 
   .submit {
@@ -96,12 +95,13 @@
 .second-sec-img > img,
 .third-sec-img > img,
 .fourth-sec-img > img{
-  width: 450px;
+  width: 400px;
   margin: auto;
 }
 .first-sec-img video{
-  top: 70px;
-  width: 460px;
+  top: 38px;
+  width: 309px;
+  left: 54px;
 }
 
 .third-sec-img video{
